@@ -1,0 +1,14 @@
+cc_binary_host {
+    name: "dtbSplitAmlogic",
+    srcs: [
+        "dtbSplit.cpp",
+    ],
+}
+
+cc_binary_host {
+    name: "dtbToolAmlogic",
+    srcs: [
+        "dtbTool.c",
+    ],
+}
+
